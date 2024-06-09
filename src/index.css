@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Exo';
+  src: url('path/to/exo.woff2') format('woff2'),
+       url('path/to/exo.woff') format('woff');
+  /* Add additional font formats if necessary */
+}
+
+body {
+  font-family: 'Exo', Arial, sans-serif;
+}
