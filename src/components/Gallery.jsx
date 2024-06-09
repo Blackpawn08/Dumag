@@ -13,8 +13,8 @@ import gall10 from "../images/gallery/10.jpg";
 const Gallery = () => {
   return (
     <>
-      <div className="text-center">
-        <h1 className="text-4xl font-semibold pb-8">Captured Memories</h1>
+      <div className="flex justify-center">
+        <h1 className="md:text-4xl text-2xl font-semibold p-5 rounded-3xl mb-4 text-white bg-blue-700 shadow-2xl">Captured Memories</h1>
       </div>
       <div className="grid lg:grid-cols-5 md:grid-cols-3 justify-evenly gap-4 p-9">
         <div>

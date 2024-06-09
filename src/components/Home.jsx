@@ -23,7 +23,7 @@ const Home = () => {
             </h1>
           </div>
           <div>
-            <p className="md:text-xl font-normal">
+            <p className="md:text-xl text-sm">
               Yo! Let’s craft stories that pop and make your brand the hottest
               <br className="hidden md:inline"/>
               topic in Dubai and in the Gulf.

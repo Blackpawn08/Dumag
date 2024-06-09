@@ -30,13 +30,13 @@ const Contact = () => {
   };
   return (
     <div className="">
-      <div className="lg:flex p-10">
-        <div className="lg:w-1/2 flex flex-col gap-9 items-center md:p-14 ">
+      <div className="lg:flex p-8">
+        <div className="lg:w-1/2  flex flex-col gap-9 items-center md:p-14 ">
           <div>
-            <h1 className="text-3xl font-medium">Let's Collaborate</h1>
+            <h1 className="md:text-3xl text-2xl font-medium text-blue-700">Let's Collaborate</h1>
           </div>
           <div>
-            <p>
+            <p className="md:text-base text-sm">
               I'm hyped to hear about your project and how I can help you
               achieve communication goals that are nothing short of epic.
               Whether you need help crafting compelling content, honing your
@@ -44,10 +44,10 @@ const Contact = () => {
               I'm your guy!
             </p>
           </div>
-          <div className="flex gap-14">
+          <div className="md:flex md:gap-14">
             <div className="flex items-center gap-2">
               <div>
-                <FaPhone />
+                <FaPhone className="text-blue-700" />
               </div>
               <div>
                 <p>0529658184</p>
@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center gap-2">
               <div>
-                <MdEmail />
+                <MdEmail className="text-blue-700" />
               </div>
               <div>
                 <p>angelodumag@gmail.com </p>
@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 flex justify-center p-14">
+        <div className="lg:w-1/2 flex justify-center p-8">
           <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-9 w-full md:w-3/5">
             <input
               type="text"

@@ -35,7 +35,7 @@ const App = () => {
     <div className="relative">
       <img
         src={shape3}
-        className="absolute right-0 top-20 p-4 z-0 md:w-1/2 h-auto"
+        className="absolute right-0 top-20 pl-4 z-0 md:w-1/2 h-auto"
         alt=""
       />
       <img
